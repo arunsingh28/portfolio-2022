@@ -23,3 +23,9 @@ create a `tsconfig.json` file in the root folder
 }
 
 ```
+
+## CLIENT
+
+## Package
+
+    - npx create-react-app client --template typescript
