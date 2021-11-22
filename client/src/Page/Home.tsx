@@ -3,7 +3,8 @@ import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
-    <div>
+    // main wrapper for padding
+    <div className="bg-blue-300 px-10 py-5">
       <Navbar />
     </div>
   );
