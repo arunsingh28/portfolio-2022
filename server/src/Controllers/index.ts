@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 
 const Message = async (req: Request, res: Response) => {
-  console.log("Message");
+  res.sendStatus(200);
 };
 
 export default { Message };
