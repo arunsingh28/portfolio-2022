@@ -7,6 +7,7 @@
     - npm i -D typescript ts-node
     - npm i -D @types/node`
     - npm i express -D @types/express
+    - npm i cors dotenv
 
 ## Step 2
 
