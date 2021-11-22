@@ -1,13 +1,13 @@
 import express from "express";
 import cors from "cors";
 
-// inner modules
+// **********inner modules************
 import Listing from "../config/listening";
 
 // init express to app
 const app = express();
 
-// middlewares
+// **********middlewares**************
 
 // cors for inteaction with frontend
 app.use(cors());
