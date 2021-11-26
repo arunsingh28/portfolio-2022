@@ -10,6 +10,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
+
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+/* font-family: 'Secular One', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
