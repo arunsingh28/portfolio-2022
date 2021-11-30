@@ -1,10 +1,10 @@
 import config from "./portConfig";
 import { Express } from "express";
 
-const Listing = (app: Express) => {
+const Listening = (app: Express) => {
   app.listen(config.port, () => {
     console.log(`Server is UP on PORT:${config.port}`);
   });
 };
 
-export default Listing;
+export default Listening;
