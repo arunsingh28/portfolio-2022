@@ -8,6 +8,8 @@ import Router from "./Routes/index";
 // init express to app
 const app = express();
 
+// testing commands
+
 // bodyParser
 app.use(express.json())
 app.use(express.text())
