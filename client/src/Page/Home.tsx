@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 const Home = () => {
   return (
     // main wrapper for padding
-    <div className="bg-blue-300 px-10 py-5">
+    <div className="bg-blue-900 px-10 py-5 text-white">
       <Navbar />
     </div>
   );
