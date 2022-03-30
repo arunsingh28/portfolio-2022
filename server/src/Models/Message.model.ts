@@ -1,7 +1,7 @@
 import mongoose,{ ObjectId } from 'mongoose'
 
 export interface ImessageSchema{
-    id: ObjectId
+    _id: ObjectId
     email : string
     message: string
     createdAt: string
