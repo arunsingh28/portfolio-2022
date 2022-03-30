@@ -23,3 +23,8 @@ Router(app);
 
 // Server Start and error handing
 Listening(app);
+
+
+process.nextTick(()=>{
+    console.log('process is started')
+})

@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-2022",
+  "version": "1.0.0",
+  "description": "# SERVER",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "sbuild": "cd server && npm run build",
+    "cbuild": "cd client && npm run build",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build":"concurrently \"npm run sbuild\" \"npm run cbuild\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunsingh28/portfolio-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunsingh28/portfolio-2022/issues"
+  },
+  "homepage": "https://github.com/arunsingh28/portfolio-2022#readme"
+}
