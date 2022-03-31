@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 
 const Home = () => {
   return (
     // main wrapper for padding
-    <div className="bg-blue-900 px-10 py-5 text-white">
-      <Navbar />
+    <div className="wrapper">
+     <Header />
     </div>
   );
 };
