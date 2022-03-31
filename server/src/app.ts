@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 
+
 // **********inner modules************
 import Listening from "../config/listening";
 import Router from "./Routes/index";
@@ -24,7 +25,3 @@ Router(app);
 // Server Start and error handing
 Listening(app);
 
-
-process.nextTick(()=>{
-    console.log('process is started')
-})
