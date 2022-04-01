@@ -1,7 +1,7 @@
 import React from "react";
-import PersonImg from '../../assets/person.png'
+// import PersonImg from '../../assets/person.png'
+
 const Navbar = () => {
-  
   return (
     <div className="md:flex justify-between font-sans items-center ">
       <div>꧁༒
